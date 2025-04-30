@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnidosContraElDengue</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            font-size: 2.5em;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 900px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #3498db;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            list-style-type: square;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #34495e;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 1.2em;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background-color: #e74c3c;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #c0392b;
+        }
+
+        .card {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-caption {
+            font-size: 0.9em;
+            color: #555;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .image-caption-warning {
+            font-size: 1em;
+            color: #e74c3c;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .center-image {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Información sobre el Dengue
+    </header>
+
+    <section>
+        <h2>¿Qué es el Dengue?</h2>
+        <p>El dengue es una enfermedad viral transmitida por la picadura de mosquitos infectados, principalmente del género <em>Aedes</em>, como el <em>Aedes aegypti</em>. Es común en regiones tropicales y subtropicales. Este virus se transmite a través de la picadura del mosquito infectado, y existen cuatro serotipos conocidos: DEN-1, DEN-2, DEN-3 y DEN-4.</p>
+        <p>Es importante destacar que una persona que ya ha tenido dengue puede volver a contagiarse de otro serotipo del virus. Si una persona se infecta con un serotipo diferente al que ya tuvo, puede experimentar nuevamente la enfermedad. Sin embargo, después de la infección, el cuerpo desarrolla inmunidad contra ese serotipo específico, pero no contra los otros tres serotipos. Esto significa que una persona no es completamente inmune y puede volver a ser infectada por otro serotipo en el futuro.</p>
+        <p>El dengue puede variar desde síntomas leves hasta casos más graves que pueden poner en riesgo la vida. Es importante identificar los síntomas temprano para prevenir complicaciones.</p>
+        <div class="card">
+            <img src="https://files.oaiusercontent.com/file-HYQ5xbQTKeqoQKakmWg7zQ?se=2025-04-30T08%3A12%3A24Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3DChatGPT%2520Image%252030%2520abr%25202025%252C%252002_21_57.png&sig=uX/sUoeMt8f9DxsZs6mdc%2BKNhuqX5RwB2KpjqcCXRiE%3D" alt="Mosquito Aedes aegypti" />
+            <p class="image-caption"><strong>Este es un mosquito hembra de Aedes aegypti.</strong> Las hembras son las que transmiten el virus del dengue, ya que necesitan sangre para desarrollar sus huevos. Los machos, por otro lado, se alimentan exclusivamente de néctar y no son transmisores de la enfermedad.</p>
+        </div>
+        
+        <h2>¿Cómo ocurre la transmisión del virus?</h2>
+        <p>La transmisión del virus del dengue ocurre de la siguiente manera:</p>
+        <ul>
+            <li>Un mosquito <strong>Aedes</strong> hembra se alimenta de la sangre de una persona infectada con el virus del dengue.</li>
+            <li>Una vez que el mosquito se infecta, el virus se reproduce dentro de su cuerpo y se propaga por todo su sistema.</li>
+            <li>Después de un período de incubación, el mosquito se convierte en un transmisor del virus, lo que significa que puede infectar a otras personas al picarlas.</li>
+            <li>Cuando el mosquito pica a una persona sana, el virus se transmite a esa persona, y el ciclo de transmisión continúa.</li>
+            <li>Es importante recordar que sólo las hembras de los mosquitos <strong>Aedes</strong> son las que pueden transmitir la enfermedad, ya que son las que se alimentan de sangre para el desarrollo de sus huevos.</li>
+        </ul>
+
+        <h2>¿Cuáles son los síntomas?</h2>
+        <ul>
+            <li>Fiebre alta repentina</li>
+            <li>Dolor de cabeza intenso</li>
+            <li>Dolores musculares y articulares</li>
+            <li>Náuseas y vómitos</li>
+            <li>Erupciones cutáneas</li>
+            <li>Diarrea</li>
+            <li>Dolor abdominal intenso y continuo</li> <!-- Agregado dolor abdominal intenso y continuo -->
+        </ul>
+        <img src="https://sdmntpreastus2.oaiusercontent.com/files/00000000-2028-61f6-aaa7-2f2b1da9e412/raw?se=2025-04-30T09%3A09%3A55Z&sp=r&sv=2024-08-04&sr=b&scid=2e7a43ed-3cae-5ff1-9b6f-fed952b6e0f9&skoid=d958ec58-d47c-4d2f-a9f2-7f3e03fdcf72&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-30T04%3A46%3A13Z&ske=2025-05-01T04%3A46%3A13Z&sks=b&skv=2024-08-04&sig=hu6TFp5tWEg8eiuXt3To45dcSylVHKTEoww5QBzcIT8%3D" alt="Síntomas del Dengue" />
+        <p class="image-caption-warning">Si presenta algunos o varios de estos síntomas, no dude en consultar a su centro de salud más cercano.</p>
+
+        <h2>Prevención</h2>
+        <p>Para prevenir el dengue, es fundamental eliminar los criaderos de mosquitos y protegerse de las picaduras. Aquí te dejamos algunas recomendaciones:</p>
+        <ul>
+            <li>Usa repelentes y mosquiteros en áreas de alto riesgo.</li>
+            <li>Coloca mallas en puertas y ventanas.</li>
+            <li>Tapa bien los recipientes donde almacenas agua.</li>
+            <li>Elimina el agua de los floreros y reemplázala por arena húmeda.</li>
+            <li>Escobilla, lava y voltea los recipientes donde se estanca el agua.</li>
+            <li>Desecha los objetos en los que se pueda estancar el agua, como botellas, llantas, entre otros.</li>
+        </ul>
+        <div class="center-image">
+            <img src="https://sdmntpreastus2.oaiusercontent.com/files/00000000-9788-61f6-9d0f-8bbc238c193e/raw?se=2025-04-30T08%3A36%3A13Z&sp=r&sv=2024-08-04&sr=b&scid=529675d4-32bf-5ae5-b63c-880a41b83785&skoid=2f36945c-3adc-4614-ac2b-eced8f672c58&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-30T04%3A54%3A34Z&ske=2025-05-01T04%3A54%3A34Z&sks=b&skv=2024-08-04&sig=7XKR3ZeMFBjEhx6UVtqS40L4sbY6Rq0c0Jz0aCAFxzc%3D" alt="Prevención del Dengue" />
+            <p class="image-caption">El uso de medidas preventivas es clave para evitar la propagación del dengue.</p>
+        </div>
+
+        <div class="cta-btn">
+            <a href="#">¡Infórmate más y comparte esta información!</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025. Información sobre el Dengue. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
